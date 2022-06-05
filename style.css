@@ -1,0 +1,128 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&display=swap');
+    
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #F0F2F5;
+}
+.container{
+    max-width: 79rem;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+
+}
+.hero{
+    display: flex;
+    padding: 70px;
+}
+.hero .box-left{
+    flex: 1;
+}
+h2{
+    margin: 0 0 0 19px;
+
+}
+.subtitle{
+    margin-top: 5px;
+    margin-left: 19px;
+    color: rgb(114, 113, 113);
+}
+.container-perfil{
+    display: flex;
+    max-width:340px ;
+    margin: 10px 0 0 0;
+}
+.container-perfil .perfil-1{
+    flex: 1;
+    height: 200px;
+    margin-right: 10px;
+    background-image: url(./image/perfil.png);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.container-perfil .perfil-2{
+    flex: 1;
+    height: 200px;
+    background-color: #F0F2F5;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.hero .box-right{
+    flex: 1;
+}
+.hero .box-right .form{
+    text-align: center;
+    width: 25rem;
+    height: 22rem;
+    margin: 5rem 0 0 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px #ccc;
+    border-radius: 7px;
+    padding: 10px 0 10px 0;
+}
+.hero .box-right .form input{
+    border: 1px solid #ccc;
+    background: #ffffff;
+    height: 50px; /*height é a altura*/
+    width: 365px;
+    color: white;
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    border-radius: 7px;
+}
+.form button{
+    width: 365px;
+    height: 50px;
+    border:0;
+    border-radius: 7px;
+    background-color: #166FE5;
+    color: #fff;
+    font-size: 1.30rem;
+    cursor: pointer;
+
+}
+.form button:hover{
+    color: rgb(201, 201, 201);
+    opacity: 0.9;
+}
+.link{
+    width: 365px;
+    height: 60px;
+    margin: auto;
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    
+}
+.link a{
+    color: #18A1F6;
+    text-decoration: none;
+}
+.link a:hover{
+    color: #18A1F6;
+    text-decoration: underline;
+}
+.register button{
+     margin-top: 20px;
+     width: 180px;
+     background-color: #36A420;
+     cursor: pointer;
+    
+}
+.register button:hover{
+    color: rgb(201, 201, 201);
+    opacity: 0.9;
+}
+.box-right p a{
+    color: #000;
+    text-decoration: none;
+}
